@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tell us about yourself</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container _container">
+                <a  href="" class="header__logo logo">
+                    <img class="logo__image" src="/img/logo.svg" alt="">
+                </a>
+                <nav class="header__menu menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a class="menu__link" href="#profile">Jane Doe</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#about-yourself">Tell us about yourself</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#slider">Slider</a></li>
+                    </ul>
+                </nav>
+            </div>  
+        </header>
+        <main class="main">
+            <div class="main__profile-bg">
+                <div class="_container">
+                    <div class="main__profile profile" id="profile">                
+                        <img class="profile__photo" src="/img/photo.jpg" alt="">
+                        <div class="profile__info">
+                            <h1 class="profie__name">Jane Doe</h1>
+                            <div class="profile__parametrs parametrs">
+                                <div class="parametrs__item">
+                                    <p class="parametrs__atribut">Date of birth</p>
+                                    <p class="parametrs__value">21.04.2001</p>
+                                </div>
+                                <div class="parametrs__item">
+                                    <p class="parametrs__atribut">Gender</p>
+                                    <p class="parametrs__value">Female</p>
+                                </div>
+                                <div class="parametrs__item">
+                                    <p class="parametrs__atribut">Country</p>
+                                    <p class="parametrs__value">Corea</p>
+                                </div>
+                            </div>
+                            <div class="profile__about about">
+                                <h3 class="about__title">About me</h3>
+                                <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
+                                <p class="about__text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>   
+                            </div>                     
+                        </div>
+                        <img class="profile__cubes" src="/img/cubes_2.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="main__about-yourself about-yourself" id="about-yourself">
+                <div class="_container">
+                    <h2 class="about-yourself__title">Tell us about yourself</h2>
+                    <form action="URL" class="about-yourself__forms forms">
+                        <div class="forms__line">
+                            <div class="forms__item">
+                                <p class="about-yourself__question">Your name</p>
+                                <input type="text" class="about-yourself__form" placeholder="Tell us your name"> 
+                            </div> 
+                            <div class="forms__item"> 
+                                <p class="about-yourself__question">Your gender</p>
+                                <select class="about-yourself__form" placeholder="Your native city">
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="forms__line">  
+                            <div class="forms__item">
+                                <p class="about-yourself__question">Your country</p>
+                                <input type="text" class="about-yourself__form" name="" id="" placeholder="Where are you from?">
+                            </div> 
+                            <div class="forms__item">
+                                <p class="about-yourself__question">Your City</p>
+                                <input type="text" class="about-yourself__form" name="" id="" placeholder="Your native city">
+                            </div> 
+                            <div class="forms__item">
+                                <p class="about-yourself__question">Your date of birth</p>
+                                <input type="date" class="about-yourself__form" name="" id="" placeholder="dd.mm.yyyy">
+                            </div>
+                        </div>
+                        <div class="forms__identify">
+                            <p class="forms__proof-text">Proof your identity with some documents</p>
+                            <a  class="forms__proof-btn" href="#" >Add document</a>
+                        </div>
+                        <div class="forms__file">
+                            <img class="forms__file-img" src="/img/file_image.jpg" alt="">
+                            <div class="forms__file-name">
+                                <p class="forms__file-title">File_name_001</p>
+                                <p class="forms__file-subtitle">JPG 2,5 mb</p>
+                            </div>
+                            <img class="forms__trash-img" src="/img/trash.svg" alt="">                            
+                        </div>                    
+                        <a class="forms__button" href="#">
+                            <span>Send info</span>
+                        </a>
+                    </form>
+                </div>                   
+                <!-- <img class="about__cubes" src="/img/cubes_3.svg" alt="">
+                <img class="about__cubes_colored" src="/img/cubes_3.svg" alt="">   -->
+            </div>
+        <div class="main__slider slider" id="slider">
+            <div class="_container">
+                <div class="slider__buttons">
+                    <img class="slider__btn-left" src="img/left.svg">
+                    <img class="slider__btn-right" src="img/right.svg">
+                </div>
+                <div class="slider__circles">
+                    <img class="slider__circle" src="img/circle_fill.svg">
+                    <img class="slider__circle" src="img/circle_empty.svg">
+                    <img class="slider__circle" src="img/circle_empty.svg">
+                </div>
+                <div class="slider__text">
+                    <p class="slider__title">Slide this photo</p>
+                    <p class="slider__subtitle">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                </div>
+                <div class="slider__images">
+                    <img class="slider__image block" src="img/slide.jpg">
+                    <img class="slider__image" src="img/slide2.jpg">
+                    <img class="slider__image" src="img/slide3.jpg">
+                </div>
+            </div>
+        </div>   
+        </main>
+    </div> 
+    <script src="/js/script.js"></script> 
+</body>
+</html>
