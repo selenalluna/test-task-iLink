@@ -58,6 +58,7 @@ body {
 }
 .menu__link {
     line-height: 150%;
+    color: #8E43ED;
 }
 .menu__link:hover {
     text-decoration: underline;
